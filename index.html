@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trà Sữa Góc Trường - Ngon Chuẩn Vị Sinh Viên</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">🧋 TRÀ SỮA ĐẠI NAM</a>
+            <nav class="nav">
+                <a href="#home">Trang chủ</a>
+                <a href="#menu">Thực đơn</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner chính -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Trà Sữa Thơm Béo - Giải Nhiệt Giờ Tan Học</h1>
+            <p>Hương vị trà đậm đà kết hợp trân châu dai giòn, giá sinh viên chỉ từ 20.000đ!</p>
+            <a href="#menu" class="btn">Khám Phá Menu</a>
+        </div>
+    </section>
+
+    <!-- Thực đơn đồ uống -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Menu Đồ Uống Nổi Bật</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1558857563-b371033873b8?w=500&q=80" alt="Trà sữa trân châu đường đen">
+                    <div class="card-body">
+                        <h3>Trà Sữa Trân Châu Đường Đen</h3>
+                        <p>Sữa tươi thanh trùng hòa quyện cùng trân châu nấu đường đen dẻo thơm.</p>
+                        <span class="price">25.000đ</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=500&q=80" alt="Trà đào cam sả">
+                    <div class="card-body">
+                        <h3>Trà Đào Cam Sả</h3>
+                        <p>Trà đen ủ lạnh thanh mát, miếng đào giòn ngọt cùng hương sả dịu nhẹ.</p>
+                        <span class="price">22.000đ</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=500&q=80" alt="Trà sữa matcha kem cheese">
+                    <div class="card-body">
+                        <h3>Matcha Latte Kem Cheese</h3>
+                        <p>Bột trà xanh Nhật Bản thơm dịu phủ lớp kem phô mai mặn béo ngậy.</p>
+                        <span class="price">30.000đ</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&q=80" alt="Hồng trà sữa truyền thống">
+                    <div class="card-body">
+                        <h3>Hồng Trà Sữa Truyền Thống</h3>
+                        <p>Vị hồng trà đậm đà pha cùng bột sữa béo nhẹ, tặng kèm topping tự chọn.</p>
+                        <span class="price">20.000đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Giới thiệu -->
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <h2 class="section-title">Về Tiệm Trà Sữa Đại Nam</h2>
+            <p>Nằm ngay khu vực cổng trường Đại học Đại Nam, tiệm luôn sử dụng lá trà tuyển chọn ủ mới mỗi ngày và trân châu tự làm đảm bảo an toàn vệ sinh thực phẩm. Không gian thoáng mát, wifi tốc độ cao rất phù hợp để các bạn sinh viên tụ tập học nhóm và thư giãn sau giờ lên lớp.</p>
+        </div>
+    </section>
+
+    <!-- Liên hệ -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ & Đặt Đồ Uống</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Thông tin tiệm</h3>
+                    <p><strong>Địa chỉ:</strong> Số 1 Phố Xốm, Phú Lãm, Hà Đông, Hà Nội</p>
+                    <p><strong>Giờ mở cửa:</strong> 08:00 - 22:00 (Hàng ngày)</p>
+                    <p><strong>Hotline đặt ship:</strong> 0981413829</p>
+                </div>
+                <form class="contact-form" onsubmit="alert('Cảm ơn bạn đã gửi thông tin! Tiệm sẽ chuẩn bị đồ uống ngay.'); return false;">
+                    <input type="text" placeholder="Họ và tên của bạn" required>
+                    <input type="tel" placeholder="Số điện thoại nhận hàng" required>
+                    <textarea rows="4" placeholder="Tên món, mức đường/đá hoặc lời nhắn..." required></textarea>
+                    <button type="submit" class="btn">Gửi Yêu Cầu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chân trang -->
+    <footer class="footer">
+        <p>&copy; 2026 Trà Sữa Đại Nam - Bài tập lớn học phần FIT4014</p>
+    </footer>
+</body>
+</html>
